@@ -1,19 +1,276 @@
-.Brand_logo{
-    height: 80px;
-    width: 180px;
-}
-.navbar-inverse{
-    height: 85px;
-}
-.navbar-brand{
-    padding: 0;
-    margin-left: 90px;
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../../assets/gallery/11.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+.call{
+    background-color: rgb(43, 42, 42) ;
+    font-family:Cochin;
+    color:white;
+    text-align: end;
+    font-weight: 600;
+    padding: 0 30px;
+            }
+
+ ul li{
+   text-decoration: none;
+   display: inline;
+   padding-right: 15px;
+     }
+    
+            
+.main-text-box {
+    position: absolute;
+    width: 1150px;                                                                                                                                                                                 
+    top: 55%;
+    left: 50%;
+   transform: translate(-50%, -50%);
 }
 
-.navbar-right{
-  padding-right: 100px;
-    padding-top: 20px;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
-    color: rgb(248, 239, 239) !important;
+.navbar-nav{
+float: right;
+margin-right: 30px;
 }
+
+.logo {
+    height: 100px;
+    width: 150px;
+    float: left;
+   margin-left: 80px;
+}
+
+.align-form-right{
+    width: 450px;
+    position: absolute;
+    top: 55%;
+    left: 75%;
+   transform: translate(-50%, -50%);
+
+}
+
+.text-cover{
+max-width: 580px;
+}
+
+
+/* Main navi */
+
+#navi {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 5px;
+padding: 0;}
+   
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 3px solid #9dabee;
+}
+
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+.rowl {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+
+/* ----- ICONS ----- */
+
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #9dabee;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* ----- LINKS ----- */
+
+a:link,
+a:visited {
+    color: #9dabee;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 3px solid #9dabee;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 3px solid transparent;
+}
+
+/* ----- BUTTONS ----- */
+.btn,
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link, .btn-full,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #9dabee;
+    border: 1px solid #9dabee;
+    color: #fff;
+    margin-right: 15px;
+}
+
+
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #8195f7;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #8195f7;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #677bdd;
+    color: #fff;
+}
+
+
+
+/* ----------------------------------------------- */
+/* FEATURES */
+/* ----------------------------------------------- */
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* ----------------------------------------------- */
+/* HOW IT WORKS SECTION */
+/* ----------------------------------------------- */
+
+.section-steps {
+    background-color: #f4f4f4;
+}
+
+.steps-box {
+    margin-top: 30px;
+}
+
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e67e22;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 25px;
+    float: left;
+    padding: 5px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

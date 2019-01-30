@@ -1,6 +1,6 @@
 const ImgPath = {
     header: {
-        brand_logo: 'assets/Brand_logo/brand_logo.jpg'
+        brand_logo: 'assets/Brand_logo/logo-white.png'
     },
     carousel: {
         carousel1: 'assets/Carousel/C1.jfif',
