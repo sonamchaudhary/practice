@@ -11,6 +11,7 @@ footer {
 
       li{
           list-style: none;
+          font-family: Calibri !important;
            }
 
       h3:after {
@@ -24,9 +25,12 @@ footer {
         }
 
         .fontclass{
-            font-size: 16px;
+            font-size: 90%;
+            font-family: Calibri !important;
+            max-width: 120%;
         }
 
-        .line{
-            display: inline-block;
-        }
+ul li span{
+font-size: 80%;
+
+}

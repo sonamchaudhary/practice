@@ -9,6 +9,37 @@ h2:after {
     }
 
 section {
-    padding: 30px 0;
+    padding: 50px 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.icon-big {
+    font-size:200%;
+    display: block;
+    align-content:initial;
+    color: rgb(34, 33, 33);
+    margin-bottom: 10px;
+}
+
+.icon-big1 {
+    font-size:200%;
+    display: block;
+    align-content:stretch;
+    color: rgb(34, 33, 33);
+    margin-bottom: 10px;
+}
+.small{
+    margin-left:2%;
+    font-size: 80%;
+color: rgb(143, 139, 139);
+font-style: italic;
+font-weight: 200 !important;
 }
