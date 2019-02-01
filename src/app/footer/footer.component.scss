@@ -1,20 +1,24 @@
 footer {
     background-color: black;
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    background-attachment: fixed;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     padding: 10px;
       }
 
+      .clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
       li{
           list-style: none;
           font-family: Calibri !important;
            }
 
-      h3:after {
+     h3:after {
         display: block;
         height: 3px;
         background-color: white;
@@ -27,10 +31,17 @@ footer {
         .fontclass{
             font-size: 90%;
             font-family: Calibri !important;
-            max-width: 120%;
+            width: 120%;
         }
 
 ul li span{
 font-size: 80%;
 
+}
+ul li {
+    color: rgb(214, 214, 214);
+}
+ul li:hover{
+    color:white;
+    font-weight: 500;
 }

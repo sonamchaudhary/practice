@@ -24,11 +24,12 @@ header {
     
             
 .main-text-box {
-    position: absolute;
-    width: 1150px;                                                                                                                                                                                 
-    top: 55%;
-    left: 50%;
-   transform: translate(-50%, -50%);
+  padding-top: 50px;
+    }
+
+.custom_container{
+padding: 10px 30px;
+
 }
 
 .navbar-nav{
@@ -43,14 +44,14 @@ margin-right: 30px;
    margin-left: 80px;
 }
 
-.align-form-right{
-    width: 450px;
-    position: absolute;
-    top: 55%;
-    left: 75%;
-   transform: translate(-50%, -50%);
+// .align-form-right{
+//     width: 450px;
+//     position: absolute;
+//     top: 55%;
+//     left: 75%;
+//    transform: translate(-50%, -50%);
 
-}
+// }
 
 .text-cover{
 max-width: 580px;
@@ -112,7 +113,7 @@ padding: 0;}
 
 a:link,
 a:visited {
-    color: #9dabee;
+    color: #97a7f3;
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 3px solid #9dabee;
@@ -143,8 +144,8 @@ input[type=submit] {
 .btn-full:link, .btn-full,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #9dabee;
-    border: 1px solid #9dabee;
+    background-color: #92a4fc;
+    border: 1px solid #92a4fc;
     color: #fff;
     margin-right: 15px;
 }
@@ -155,17 +156,17 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #8195f7;
+    background-color: #768aec;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #8195f7;
+    border: 1px solid #768aec;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #677bdd;
+    border: 1px solid #768aec;
     color: #fff;
 }
 
