@@ -14,6 +14,7 @@ import { OurPartnersComponent } from './body/our-partners/our-partners.component
 import { AdditionalInfoComponent } from './body/additional-info/additional-info.component';
 import { FooterComponent } from './footer/footer.component';
 import { TestimonialsComponent } from './body/testimonials/testimonials.component';
+import { ContactUsComponent } from './body/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { TestimonialsComponent } from './body/testimonials/testimonials.componen
     AdditionalInfoComponent,
     FooterComponent,
     TestimonialsComponent,
+    ContactUsComponent,
        ],
 
   imports: [

@@ -8,12 +8,16 @@ header {
       }
 
 .call{
-    background-color: rgb(43, 42, 42) ;
-    font-family:Cochin;
+    background-color: rgb(50, 66, 73) ;
+     font-family:Cochin;
     color:white;
     text-align: end;
-    font-weight: 600;
-    padding: 0 30px;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 0;
+    border-bottom: 3px solid whitesmoke;
             }
 
  ul li{
@@ -28,7 +32,7 @@ header {
     }
 
 .custom_container{
-padding: 10px 30px;
+padding: 0 100px;
 
 }
 
@@ -81,6 +85,7 @@ padding: 0;}
     text-decoration: none;
     text-transform: uppercase;
     font-size: 80%;
+    font-weight: 600;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
@@ -144,8 +149,8 @@ input[type=submit] {
 .btn-full:link, .btn-full,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #92a4fc;
-    border: 1px solid #92a4fc;
+    background-color: #5063c0;
+    border: 1px solid #4e68e6;
     color: #fff;
     margin-right: 15px;
 }
@@ -171,7 +176,10 @@ input[type=submit]:active {
 }
 
 
-
+.watsapp_img_resize{
+    height: 28px;
+    width: 28px;
+}
 
 
 
