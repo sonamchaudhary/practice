@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import{ ImgPath} from '../image_paths/image_paths';
+// import{ ImgPath} from '../image_paths/image_paths';
+
+import{ Customer} from './customer_info';
+import { NgForm } from '@angular/forms';
+// import { from } from 'rxjs';
 
 @Component({
   selector: 'app-header',
@@ -8,8 +12,17 @@ import{ ImgPath} from '../image_paths/image_paths';
 })
 export class HeaderComponent implements OnInit {
 
-  brand_logo= ImgPath.header.brand_logo;
-  constructor() { }
+ customerinfo = new Customer();
+
+
+  constructor() {}
+
+    // 
+   onSubmit( queryForm: NgForm):void {
+     console.log(queryForm.value);
+    queryForm.reset();
+
+   }
 
   ngOnInit() {
   }

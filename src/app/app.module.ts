@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { FormsModule }   from '@angular/forms';
+import {AngularFireModule} from 'angularfire2';
+import {AngularFireDatabaseModule} from 'angularfire2/database';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -15,6 +18,8 @@ import { AdditionalInfoComponent } from './body/additional-info/additional-info.
 import { FooterComponent } from './footer/footer.component';
 import { TestimonialsComponent } from './body/testimonials/testimonials.component';
 import { ContactUsComponent } from './body/contact-us/contact-us.component';
+import { from } from 'rxjs';
+import {environment} from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -28,13 +33,16 @@ import { ContactUsComponent } from './body/contact-us/contact-us.component';
     FooterComponent,
     TestimonialsComponent,
     ContactUsComponent,
-       ],
+           ],
 
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
